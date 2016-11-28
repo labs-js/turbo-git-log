@@ -7,6 +7,7 @@
     "test": "nyc jasmine-node --verbose --captureExceptions test"
   },
   "dependencies": {
+    "turbo-git-config": "^0.1.0"
   },
   "devDependencies": {
     "jasmine-node": "^1.14.5",
