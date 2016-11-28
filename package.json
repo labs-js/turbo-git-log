@@ -17,6 +17,9 @@
   "engines": {
     "node": "7"
   },
+  "bin": {
+    "git-tl": "bin/cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/labs-js/turbo-git-log.git"
