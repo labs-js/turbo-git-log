@@ -8,3 +8,19 @@
 # turbo-git-log
 
 Turbo-git log command. Semantic git logs according your commit convention.
+
+## how to use it:
+
+```
+npm i turbo-git-log
+```
+
+And then from the code anytime that you want to call the turbo git log:
+
+```
+require('turbo-git-log')()
+```
+
+## TODO
+
+- I'm thinking that this should take the turbo-git-config by param and Not use it iternally like is doing now.
