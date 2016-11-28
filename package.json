@@ -1,6 +1,6 @@
 {
   "name": "turbo-git-log",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "description": "Turbo-git log command. Semantic git logs according your commit convention.",
   "main": "index.js",
   "scripts": {
@@ -16,9 +16,6 @@
   },
   "engines": {
     "node": "7"
-  },
-  "bin": {
-    "git-tl": "bin/cli.js"
   },
   "repository": {
     "type": "git",
