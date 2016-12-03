@@ -7,7 +7,7 @@
 
 # turbo-git-log
 
-Turbo-git log command. Semantic git logs according your commit convention.
+**Turbo git log command** -> Semantic git logs according your commit convention.
 
 #### This lib is part of the [Turbo Git](https://github.com/labs-js/turbo-git) -> Making your git even more awesome 😎🙌
 
