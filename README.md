@@ -9,10 +9,12 @@
 
 Turbo-git log command. Semantic git logs according your commit convention.
 
+#### This lib is part of the [Turbo Git](https://github.com/labs-js/turbo-git) -> Making your git even more awesome 😎🙌
+
 ## how to use it:
 
 ```
-npm i turbo-git-log
+npm install turbo-git-log
 ```
 
 And then from the code anytime that you want to call the turbo git log:
@@ -21,6 +23,10 @@ And then from the code anytime that you want to call the turbo git log:
 require('turbo-git-log')()
 ```
 
-## TODO
+## What do I get? 
 
-- I'm thinking that this should take the turbo-git-config by param and Not use it iternally like is doing now.
+> Well now you can see your git log with semantics commits. So.. the colors on the git log have sense now:
+
+<img alt="turbo-git-log" src="https://github.com/labs-js/turbo-git-log/blob/develop/assests/git-log-sample.png" width="500">
+
+- This example is using the [turbo-commit](https://github.com/labs-js/turbo-git/blob/develop/CONVENTION.md) convention
