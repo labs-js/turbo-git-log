@@ -19,12 +19,12 @@ npm install turbo-git-log
 
 And then from the code anytime that you want to call the turbo git log:
 
-```
+```javascript
 require('turbo-git-log')()
 ```
 
 This will print out the command output with the **Turbo Log**. The colors will be apply only if the commit follow the obtained commit convention. 
-> Note: The commit convention will be obtained by the `.turbogit` config file on the git repo. If this file is not on your repo this will use the default convention got by the package [turbo-git-config](https://github.com/labs-js/turbo-git-config/)
+> Note: The commit convention will be obtained by the `.turbogit` config file on the corresponding git repo. If this file is not on the repo this will use the default convention got by the package [turbo-git-config](https://github.com/labs-js/turbo-git-config/)
 
 
 ## What do I get? 
