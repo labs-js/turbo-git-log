@@ -1,6 +1,6 @@
 {
   "name": "turbo-git-log",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Turbo-git log command. Semantic git logs according your commit convention.",
   "main": "index.js",
   "scripts": {
