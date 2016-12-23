@@ -1,4 +1,2 @@
 #!bin/env node
-module.exports = function () {
-    require('./lib/log');
-}
+module.exports = require('./lib/log')
