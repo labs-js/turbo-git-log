@@ -1,14 +1,10 @@
 {
-  "ecmaFeatures": {
-    "globalReturn": true,
-    "modules": true
-  },
   "extends": [
     "eslint:recommended"
   ],
   "env": {
-    "browser": true,
-    "es6": false,
+    "browser": false,
+    "es6": true,
     "node": true
   },
   "globals": {
