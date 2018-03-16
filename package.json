@@ -11,6 +11,9 @@
     "commander": "^2.14.1",
     "turbo-git-config": "^0.5.0"
   },
+  "bin": {
+    "git-turbo-log": "bin/git-turbo-log.js"
+  },
   "devDependencies": {
     "jasmine-node": "^1.14.5",
     "nyc": "^11.4.1"
