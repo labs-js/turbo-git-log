@@ -1,7 +1,7 @@
 {
   "name": "turbo-git-log",
   "version": "0.4.0",
-  "description": "Turbo-git log command. Semantic git logs according your commit convention.",
+  "description": "turbo-git-log command. Semantic git logs according your commit convention.",
   "main": "index.js",
   "scripts": {
     "test": "nyc jasmine-node --verbose --captureExceptions test"
