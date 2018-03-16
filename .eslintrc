@@ -15,7 +15,6 @@
     "expect": true,
     "spyOn": true
   },
-  "plugins": [],
   "rules": {
     "semi": [2, "always"],
     "no-cond-assign": 1,
@@ -42,7 +41,6 @@
     "brace-style": [1, "1tbs", { "allowSingleLine": true }],
     "eol-last": 0,
     "padded-blocks": [1, "never"],
-    "keyword-spacing": 1,
     "space-before-function-paren": [0, "never"],
     "space-before-blocks": [1, "always"],
     "one-var": [1, "always"],
