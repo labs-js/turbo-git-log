@@ -8,13 +8,24 @@
 # turbo-git-log
 
 **Turbo git log command** -> Semantic git logs according your commit convention.
+-----
+This package will print out the git log semantically parsed according the commit convetion, the **Turbo Log**. The colors on the commits will be apply only if the commit follow the obtained commit convention.
+> Note: The commit convention are being obtained by the `.turbogit` config file on the corresponding git repo. If this config file is not on the repo, turbo-git-log will use the default convention got by the package [turbo-git-config](https://github.com/labs-js/turbo-git-config/) which is the [turbo-commit](https://github.com/labs-js/turbo-git/blob/develop/CONVENTION.md) convention.
 
 #### This lib is part of the [Turbo Git](https://github.com/labs-js/turbo-git) -> Making your git even more awesome 😎🙌
 
-## how to use it:
+## Install CLI:
+
+```bash
+npm install -g turbo-git-log
+```
+
+You will the command the `turbo-git-log`
+
+## Install as Local dependency:
 
 ```
-npm install turbo-git-log
+npm install --save turbo-git-log
 ```
 
 And then from the code anytime that you want to call the turbo git log:
@@ -23,11 +34,7 @@ And then from the code anytime that you want to call the turbo git log:
 require('turbo-git-log')()
 ```
 
-This will print out the command output with the **Turbo Log**. The colors will be apply only if the commit follow the obtained commit convention. 
-> Note: The commit convention will be obtained by the `.turbogit` config file on the corresponding git repo. If this file is not on the repo this will use the default convention got by the package [turbo-git-config](https://github.com/labs-js/turbo-git-config/)
-
-
-## What do I get? 
+## What do I get?
 
 > Well now you can see your git log with semantics commits. So.. the colors on the git log have sense now:
 
