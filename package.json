@@ -12,7 +12,7 @@
   "dependencies": {
     "colors": "^1.2.1",
     "commander": "^2.14.1",
-    "turbo-git-config": "file:../turbo-git-config"
+    "turbo-git-config": "^0.5.2"
   },
   "bin": {
     "git-turbo-log": "bin/git-turbo-log.js"
