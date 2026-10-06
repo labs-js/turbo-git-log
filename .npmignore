@@ -1,2 +1,4 @@
-test
 assests
+coverage
+.nyc_output
+test

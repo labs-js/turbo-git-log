@@ -6,7 +6,8 @@
   "scripts": {
     "test": "nyc jasmine-node --verbose --captureExceptions test",
     "lint": "eslint lib test bin index.js",
-    "lint:fix": "eslint lib test bin index.js --fix"
+    "lint:fix": "eslint lib test bin index.js --fix",
+    "prepublishOnly": "npm test"
   },
   "dependencies": {
     "colors": "^1.2.1",
